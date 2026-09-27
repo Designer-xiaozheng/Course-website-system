@@ -1,0 +1,793 @@
+
+	
+
+ 
+
+body{
+     font-family: "Lucida Handwriting","Times New Roman",  Cursive;
+}
+
+/* 表单内文字 */
+form label{
+    font-size: 16px !important;
+	color: #2d4059;
+}
+
+/* 输入框 */
+article main form input{
+   border-radius: 10px !important;
+	background-color: #FFFFFF  ; 
+	/* border: 2px solid #6495ed !important; */
+}
+/* 鼠标移入时输入框样式 */
+article main form input:hover{
+/* 	border: 1px solid #f07b3f !important; */
+}
+/* 列表页外层 */
+
+article main .el-table{
+   /* border-radius: 20px !important; */
+}
+
+
+/* 注册登陆忘记密码页 */
+.sign_in {
+    /* 界定盒子大小即为边框大小 */
+    box-sizing: border-box;
+    /* 高度为可视化 */
+    height: 100vh;
+    /* 内边框 */
+    padding: .5rem;
+    /* 宽度 */
+    width: 100% !important;
+    /* 背景图片 */
+  background: url(../img/bg.jpg) no-repeat !important;
+    /* 背景图大小 */
+    background-size: 72.5%  100% !important;
+	/* position: relative; */
+}
+
+/* 登录页  登录框 注册框 忘记密码框*/
+
+.sign_in .form {
+ position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  min-height: 100vh;
+ /* border-bottom-left-radius: 600px; */
+  padding-bottom: 200px;
+  background:#544e78;
+  margin-top: 0 !important;
+  padding: 0px;
+}
+
+/* 登录页  登录框 注册框 忘记密码框 顶部标题*/
+
+.sign_in .form h1 {
+    /*文字摆放位置*/
+    text-align: center !important;
+    /* 文字大小 */
+    font-size: 25px !important;
+	/* 外边距 */
+	/* margin-left: 0rem;
+	margin-bottom: 0rem; */
+    /* 文字颜色 */
+    color: #333333;
+    /* 文字阴影 */
+  /* text-shadow: 5px 5px 5px  #746C5C ; */
+	/* 装饰文本
+	/* text-decoration: overline; */
+	 /* 装饰颜色 */
+	/* text-decoration-color:  #4A766E; */
+	 /* 字体[排向] */
+	/* writing-mode: vertical-rl; */
+/* position: absolute; */
+top: 20px !important; 
+/* margin-right: 0rem !important; */
+display: block;
+background-color: #FFFFFF;
+height: 4rem;
+/* width: 18rem; */
+line-height:4rem;
+/* 圆角 */
+ /* border-radius: 0px 70px; */
+
+border: 2px solid #f07b3f;
+margin: 10px auto;
+left: 110px;
+
+}
+/* 账号密码盒子 */
+.sign_in .form .el-form-item,.form  .geetest_box{
+	
+	/* margin-right: 3rem !important;
+	margin-top: 8rem; */
+/* 	 position: absolute;
+	 top:1.5rem;
+	 right: 0; */
+	display: flex;
+	flex-direction: column;
+	margin-left: 30px;
+	
+}
+/* 登录界面登录注册按钮 */
+.sign_in .el-button:nth-child(1){
+	
+	/* 背景色 */
+    background-color: #69779b  !important;
+     /* 边框 */
+    border: none;
+	/* 颜色 */
+	color: #FFFFFF;	
+	font-family: "agency fb";
+	font-size: 1rem;
+}
+.sign_in .el-button:nth-child(2){
+	
+	/* 背景色 */
+    background-color: #69779b  !important;
+     /* 边框 */
+    border: none;
+	/* 颜色 */
+	color: #FFFFFF;	
+	font-family: "agency fb";
+	font-size: 1rem;
+}
+/* 登录页  登录框 注册框 忘记密码框 input框左侧label字体样式*/
+
+.sign_in .form label,.sign_in  .geetest_box_title {
+    /* 文字大小 */
+  font-size: 15px !important;
+	/* 字体加粗 */
+ font-weight: 500;
+  /* 文字颜色 */
+ color: #FFFFFF !important;
+  /* 字体[排向] */
+ /* writing-mode: initial !important; */
+ 
+
+}
+/* 登录页  登录框 注册框 忘记密码框 左侧账号*隐藏 */
+.sign_in .form label:before,.sign_in  .geetest_box_title:before{
+	/* 隐藏*号 */
+	display: none;
+	/* 字体[排向] */
+	
+}
+/* 登录页  登录框 注册框 忘记密码框 左侧账号加： */
+.sign_in .form label:after,.sign_in  .geetest_box_title:after{
+	/* 内容 */
+	content: ":";
+	/* 字体[排向] */
+	/* writing-mode: vertical-rl; */
+}
+/* 登录页  登录框 注册框 忘记密码框 input输入框 */
+.sign_in .form input {
+   /* 圆角边框 */
+ /* border-radius: 1rem !important; */
+/* border: 1px solid #ff5722 ; */
+ /*   边框阴影 */
+/* box-shadow: 0px 0px 20px 10px #ccc; */
+    /* 外边距
+    /* margin: 10px 10px 10px 10px; */
+    /* 内边距 */
+    /* padding: 10px 10px 10px 10px; */
+    /* 内部字体颜色 */
+/*    color: #edf798; */
+    /* 盒子透明度 */
+    /* opacity: 0.8; */
+    /* 背景颜色 */
+   background-color: #FFFFFF !important;
+    /* 宽度 */
+    width:100%;
+    /* 高度 */
+    /* height: 100x; */
+    /*文字摆放位置*/
+    text-align: left !important;
+	/* 边框 */
+	/* border: 2px dotted  #6495ed; */
+	margin-left: -40px;
+}
+/* 鼠标移入时样式 */
+.sign_in .form input:hover{
+	border: 1px solid #f07b3f !important;
+}
+.sign_in  .form .el-input__suffix-inner{
+	margin-left: -40px;
+}
+
+/* 登录页忘记密码 */
+.sign_in .btns:last-child {
+   
+    /* 字体加粗 */
+   /* font-weight: 600; */
+    /* 文字颜色 */
+    color:  #FFFFFF;
+	/* 左边距 */
+	margin-left:9rem !important;
+	/* 上边距 */
+	margin-top: 20px !important;
+	/* 宽度 */
+	width: 30%;
+	height: 2.2rem;
+	/* 边框 */
+	/* border: 2px dotted #6495ed; */
+	/* 背景色 */
+	background-color: #69779b  !important;
+	 /* 边框 */
+	border: none;
+	/* 颜色 */
+	
+	font-family: "agency fb";
+	font-size: 1rem;
+	line-height: 2.2rem;
+	border-radius: 0.3rem;
+	
+}
+.forgot_wrap .el-input-group__append{
+	background-color:  #69779b;
+}
+/* 登录页  忘记密码框内 取消 字体样式*/
+
+/* 忘记密码页发送验证码按钮 */
+.sign_in .el-input-group__append  button{
+	/* 颜色 */
+  color:  #FFFFFF !important;
+  /* 圆角边框 */
+  border-radius: 1rem !important;
+  
+}
+.sign_in .el-input__inner{
+		margin-right: 40px !important;
+}
+
+.register_wrap .el-button{
+	background-color:#69779b !important;
+	margin-left:140px;
+}
+/* --------------------------------------------------------------- */
+/* vue后台列表 外框背景色 ////////////////////////*/
+
+ .form.p_4 {
+   padding: 5px !important;
+   float: right;
+   width: 165px;
+   background: #d7eaea;
+   border: 2px solid #9692af;
+   border-radius: 10px;
+ }
+ .el-table__fixed-right{
+	 /* border-right: 4px solid #69779b; */
+ }
+ .form.p_4 .el-form-item {
+   margin-bottom: 0 !important;
+ }
+ 
+ .form.p_4 .el-row .el-col-lg-8 {
+   width: 100% !important;
+ }
+ 
+ .form.p_4 .el-row .el-col:nth-last-child(2) {
+   margin-bottom: 30px !important;
+ }
+ .el-main .el-table,
+ .el-main .mt {
+   width: calc(100% - 170px) !important;
+   margin-left: 0px;
+ 
+ }
+ .form.p_4 .el-row .el-col-24,
+ .form.p_4 .el-ro .wel-col-xs-24,
+ .form.p_4 .el-row .el-col-sm-12,
+ .form.p_4 .el-rowel-col-lg-6 {
+   width: 100% !important;
+ }
+ .form.p_4 .el-form-item{
+	 display: flex;
+	 flex-direction: column;
+ }
+ .form.p_4 .el-form-item .el-form-item__label{
+	 text-align: left;
+ }
+.bg{
+	/* 背景色 */
+   background-color: #f6f6f6 !important;
+	
+}
+
+ .table_wrap .el-form-item__content{
+	 display: flex;
+	 flex-direction: column;
+ }
+.form.p_4 .el-form-item__content .el-button{
+	width: 140px;
+	height: 30px;
+	line-height: 30px;
+	margin: 5px auto !important;
+	padding: 0;
+}
+/* 左侧导航栏 样式  */
+/* 左侧导航栏颜色 */
+#app .page .side {
+    /* 背景颜色 */
+   background-color: #9692af !important;
+    /* 边框 */
+ /*   border-right: 2px solid #BD8387; */
+}
+/* 导航栏首页盒子 */
+#app .page .side .el-menu-item{
+	background-color: #d7eaea  !important;
+	 color: #00204a !important;
+	 font-size: 1.125rem;
+	}
+
+/* 导航栏主类背景色 */
+#app .page .side .el-submenu__title{
+	background-color: #69779b  !important;
+/* 	border: 1px solid #FFFFFF; */
+	/* border-radius: 1rem; */
+	border-bottom: 1px solid #d7eaea;
+	
+}
+/* 导航栏主类文字样式 */
+#app .page .side .el-submenu__title span{
+	color: #d7eaea;
+	font-size: 1.0625rem;
+	/* font-weight: 600; */
+	
+}
+
+/* 导航栏子类外框背景色 */
+#app .page .side .el-submenu .el-menu {
+	  background-color: #f6f6f6 !important;
+}
+
+/* 左侧导航栏选中文字样式 */
+
+
+
+/* 左侧导航栏盒子内分支导航样式 */
+
+#app .page .side .el-submenu .el-menu-item{
+    /* 背景颜色 */
+ background-color: #d7eaea  !important;
+    /* 下边框 */
+ /*   border-bottom: 3px solid #f06868; */
+    /* 圆角 */
+   /* border-radius:  1.875rem  0.625rem; */
+    /* 下外边距 */
+   margin: 10px;
+   /* 文字颜色 */
+   color: #69779b !important;
+   /* 文字大小 */
+   font-size: 1.0625rem;
+   /* 边框 */
+  /* border: 2px dotted #6eb6ff; */
+   /* 文本对齐方式 */
+   text-align: center;
+   /* 宽度 */
+ /*  width: 80%;
+   -webkit-box-shadow: 6px 7px 6px 3px rgba(159,202,245,1);
+   -moz-box-shadow: 6px 7px 6px 3px rgba(159,202,245,1);
+   box-shadow: 6px 7px 6px 3px rgba(159,202,245,1); */
+
+}
+#app .page .side .el-submenu .el-menu-item.is-active{
+	color:  #223432  !important;
+	font-size: 1.25rem;
+	/* font-weight: 600; */
+	background-color: #acdbdf !important;
+}
+
+/* 左侧导航栏 首页图标 样式  */
+#app .page .side .el-icon-s-home {
+ /*文字摆放位置*/
+ /*  text-align: left !important; */
+   /* 文字大小 */
+   /* font-size: 50px !important; */
+   /* font-weight: 600; */
+   /* 字体倾斜 */
+   /* font-style:oblique; */
+   /* 下划线 */
+   /* text-decoration:underline; */
+   /* 下划线颜色 */
+   /* text-decoration-color: #00a4ff; */
+   /* 文字颜色 */
+  color: #6c737e !important;
+  display: none;
+}
+
+
+/* 左侧导航栏 未选中时图标样式  样式  */
+#app .page .side i {
+    /*文字摆放位置*/
+    /* text-align: left !important; */
+    /* 文字大小 */
+    /* font-size: 50px !important; */
+    /* font-weight: 600; */
+    /* 字体倾斜 */
+    /* font-style:oblique; */
+    /* 下划线 */
+    /* text-decoration:underline; */
+    /* 下划线颜色 */
+    /* text-decoration-color: #00a4ff; */
+    /* 文字颜色 */
+   color: #f1f1f1 ;
+	display: none;
+}
+/* 左侧导航栏缩进 菜单外盒子 */
+.el-menu--vertical {
+    /* 背景颜色 */
+    background-color: #30333A !important;
+}
+/* 左侧导航栏缩进 菜单内盒子 */
+.el-menu--vertical .el-menu{
+background-color:#30333A !important;	
+}
+/* 左侧导航栏缩进 菜单单条盒子 */
+.el-menu--vertical .el-menu-item{
+	/* 背景颜色 */
+	 background-color: #0E82CF  !important;
+	    /* 下边框 */
+	/*   border-bottom: 1px solid #f07b3f; */
+	    /* 圆角 */
+	  /* border-radius: 1.25rem; */
+	    /* 下外边距 */
+	 /*  margin: 10px; */
+	   /* 文字颜色 */
+	   color: #ffffff !important;
+	   /* 文字大小 */
+	   font-size: 1rem;
+	   /* 边框 */
+	  /* border: 2px dotted #6eb6ff; */
+	   /* 文本对齐方式 */
+	   text-align: center;
+	   /* 宽度 */
+	   width: 100%;
+}
+
+/* 鼠标点击以后样式 */
+.el-menu--vertical .el-menu-item:hover{
+  display: block;
+  background-color: #1E628F !important;
+  color:  #ffffff  !important;
+  /* font-size: 1.5rem; */
+  /* font-weight: 600; */
+}
+
+ /* 顶部栏 样式 */
+#app header {
+   /* 背景 */
+   background-color: #9692af ;
+
+	
+
+}
+/* 右侧内容区 */
+
+
+#app .page article{
+    /* 背景颜色 */
+    background-color: #d7eaea !important;
+	/* border: 2px solid #6eb6ff; */
+
+}
+/* 隐藏导航栏左侧图标 */
+#app header .action_left{
+display: none;	
+}
+/*  顶部栏内 左边图标样式 */
+#app header .action_left .el-icon-menu {
+    /*文字摆放位置*/
+    /* text-align: left !important; */
+    /* 文字大小 */
+    /* font-size: 50px !important; */
+    /* font-weight: 600; */
+    /* 字体倾斜 */
+    /* font-style:oblique; */
+    /* 下划线 */
+    /* text-decoration:underline; */
+    /* 下划线颜色 */
+    /* text-decoration-color: #00a4ff; */
+    /* 文字颜色 */
+   color: #7F4853;
+   /* display: none; */
+}
+/*  顶部栏内 左边图标样式  点击后样式*/
+/* #app header .action_left .el-icon-s-grid{
+	 color: #FF6666;
+} */
+/*  顶部栏内 右边头像样式 */
+
+#app header .action_right .el-dropdown .el-avatar {
+    /* 圆角边框 */
+   /* border-radius: 50% !important; */
+    /* 边框阴影 */
+    /* box-shadow: 0px 0px 20px 10px #ccc; */
+    /* 外边距 */
+    margin:  0px 10px ;
+    /* 内边距 */
+    /* padding: 10px 10px 10px 10px; */
+    /* 内部字体颜色 */
+    /* color: #00A4FF; */
+    /* 盒子透明度 */
+    /* opacity: 0.8; */
+    /* 背景颜色 */
+    /* background-color: #000000 !important; */
+    /* 宽度 */
+    /* width: 100px; */
+    /* 高度 */
+    /* height: 100x; */
+	/* border: 2px  dotted  #6eb6ff !important; */
+}
+
+/*  顶部栏内 右边用户id字体样式 */
+
+#app header .action_right .el-dropdown span:nth-child(2) {
+    /*文字摆放位置*/
+    /* text-align: left !important; */
+    /* 文字大小 */
+    font-size: 22px !important;
+    /* font-weight: 600; */
+    /* 字体倾斜 */
+    /* font-style:oblique; */
+    /* 下划线 */
+    /* text-decoration:underline; */
+    /* 下划线颜色 */
+    /* text-decoration-color: #00a4ff; */
+    /* 文字颜色 */
+    color: #EEEEEE;
+}
+/* 点击头像 下拉框*/
+.el-dropdown-menu{
+    background-color: #d7eaea  !important;
+/*    border:1px solid #F4C2C2 !important; */
+     
+}
+
+.el-dropdown-menu__item--divided:before{
+    background-color: #9692af  !important;
+}
+.el-dropdown-menu__item--divided{
+   /* border: 1px solid #D3a29f !important; */
+}
+.el-dropdown-menu::after {
+/*    content: none !important; */
+  }
+  
+/* 个人信息 页面大盒子*/
+#app #user_info .card{
+	/* 背景颜色 */
+	 background-color:#9692af  !important;
+	 /* 宽度 */
+	 width:80%;
+	 /* 颜色 */
+	 margin: 0 auto;
+}
+/* 个人信息标题 */
+#app #user_info .card .text-center{
+	/* 文本颜色 */
+	text-align: center;
+	/* 下边距 */
+	margin-bottom: 20px;
+}
+/* 修改密码 */
+#app #user_password .card{
+	/* 背景颜色 */
+	 background-color: #9692af  !important;
+	 /* 宽度 */
+	 width:80%;
+	 /* 颜色 */
+	 margin: 0 auto;
+}
+/* 个人信息标题 */
+#app #user_password  .text-center{
+	/* 文本颜色 */
+	text-align: center;
+	/* 下边距 */
+	margin-bottom: 20px;
+}
+#app #user_password .el-form-item__label,
+#app #user_info .el-form-item__label
+{
+	color: #d7eaea;
+}
+#app #user_password .el-button--primary,
+#app #user_info .el-button--primary
+{
+	background-color: #69779b !important;
+	color: #d7eaea !important;
+	border: none;
+}
+/* ---------------------------------- */
+
+/* 首页 ‘欢迎使用后台管理系统’ 字体样式 */
+
+#root_index .container-fluid .root_index_title {
+    /*文字摆放位置*/
+    /* text-align: left !important; */
+    /* 文字大小 */
+  /*  font-size: 100px !important; */
+    /* font-weight: 600; */
+    /* 字体倾斜 */
+    /* font-style:oblique; */
+    /* 下划线 */
+    /* text-decoration:underline; */
+    /* 下划线颜色 */
+    /* text-decoration-color: #00a4ff; */
+    /* 文字颜色 */
+    /* color: #0000FF; */
+}
+
+/* 首页 订单展示框 样式 */
+
+#root_index .container-fluid .card {
+    /* 圆角边框 */
+ /*   border-radius: 30px !important; */
+    /* 边框阴影 */
+    /* box-shadow: 0px 0px 20px 10px #ccc; */
+    /* 外边距 */
+   /* margin: 50px; */
+    /* 内边距 */
+    /* padding: 10px 10px 10px 10px; */
+    /* 内部字体颜色 */
+    /* color: #00A4FF; */
+    /* 盒子透明度 */
+    /* opacity: 0.8; */
+    /* 背景颜色 */
+    background-color:  #FFFFFF  !important;
+/* 	border: 2px dotted #6495ed ; */
+    /* 宽度 */
+    /* width: 80%; */
+    /* 高度 */
+    /* height: 100x; */
+}
+
+/* 首页 订单展示框 字体样式 */
+
+#root_index .container-fluid .card div {
+    /*文字摆放位置*/
+    text-align:center !important;
+    /* 文字大小 */
+    /* font-size: 50px !important; */
+    /* font-weight: 600; */
+    /* 字体倾斜 */
+    /* font-style:oblique; */
+    /* 下划线 */
+    /* text-decoration:underline; */
+    /* 下划线颜色 */
+    /* text-decoration-color: #00a4ff; */
+    /* 文字颜色 */
+    color: #00204a;
+}
+
+/*----------------------------------------------------------------------  */
+/* 列表页  查询字段名称 文字样式*/
+.el-form-item__label{
+	/* 颜色 */
+	/* color: #303841 !important; */
+	/* 字体大小 */
+	font-size: 16px !important;
+	
+	}
+
+/* -----------------------------------------------------------------*/
+/* 列表表格样式 */
+.el-table {
+font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #999999;
+	border-collapse: collapse;	
+	border-color: #d9faff;
+}
+
+.el-table  th {
+	background-color:#c3dde0;
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #d9faff;
+}
+.el-table  tr {
+	background-color:#d4e3e5;
+	border-color: #d9faff;
+}
+.el-table  td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #d9faff;
+}
+	/* 列表页表格头部 */
+.el-table__header thead th{
+	color: #d7eaea!important;
+	font-size: 1.0625rem;
+	font-weight: 500;
+	background-color: #69779b !important;
+}
+.el-table__row td:nth-child(1){
+	background-color:#9692af  !important;
+}
+.el-table__row{
+   color: #69779b !important;
+	background-color:#d7eaea !important;
+}
+
+
+/* 列表边框线公共样式 */
+
+/* 列表边框线 外边框 公共样式 */
+
+.el-table--border .el-table--group {
+/*   border: 1px solid #00a4ff !important; */
+	
+}
+
+/* 列表边框线 边框边框 公共样式 */
+
+.el-table td .el-table th.is-leaf {
+ /* border: 1px solid red !important; */
+}
+.el-button.el-button--small.is-plain.el-button--primary{
+	margin-left: 5px !important;
+	margin-bottom: 5px !important;
+}
+
+.el-main .el-image{
+	 width: 100%;
+	 height: 100%;
+ }
+ .el-avatar.el-avatar--circle img{
+	 width: 100%;
+	 height: 100%;
+ }
+ .el-button--primary{
+	background-color: #9692af !important;
+	color: #d7eaea !important;
+	border: none !important; 
+ }
+ .el-button--success.is-plain{
+	background-color: #9692af !important;
+	color: #d7eaea !important;
+	border: none !important;
+ }
+ .el-button--default{
+ 	background-color:#69779b !important;
+ 	color: #d7eaea  !important;
+ 	border: none !important;   
+ }
+ .search_btn_find{
+	 background-color: #9692af !important;
+	 color: #d7eaea !important;
+	 border: none !important;
+	 
+ }
+ .search_btn_reset{
+	background-color:#acdbdf !important;
+	color: #333 !important;
+	border: none !important; 
+ }
+ .search_btn_add{
+	background-color:#69779b !important;
+	color: #d7eaea  !important;
+	border: none !important;  
+ }
+ .search_btn_del{
+	background-color:#acdbdf !important;
+	color: #333 !important;
+	border: none !important;   
+ }
+ .search_btn_print{
+	 background-color: #9692af !important;
+	 color: #d7eaea !important;
+	 border: none !important;
+ }
+.el-form-item--feedback .el-form-item__label{
+	width: 80px !important;
+}
+.el-form-item--feedback .el-form-item__content{
+	margin-left: 80px !important;
+}
